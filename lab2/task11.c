@@ -7,7 +7,6 @@ int main() {
     arr = (int *) malloc(n*sizeof(int));
 
     int i = 0;
-    int run = 1;
 
     printf("Input: \n");
 
