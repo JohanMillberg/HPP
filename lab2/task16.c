@@ -11,7 +11,6 @@ product_t;
 int main(int argc, char const * argv[]) {
     product_t *arr_of_prod;
     int i = 0;
-    int j = 0;
     int n = 10;
     char product[15];
     double price;
@@ -41,5 +40,6 @@ int main(int argc, char const * argv[]) {
     free(filename);
     free(arr_of_prod);
     filename = NULL;
+    arr_of_prod = NULL;
 
 }
